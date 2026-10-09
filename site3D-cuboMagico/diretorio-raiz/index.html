@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f4f0" />
+    <title>Cubo Mágico 3D</title>
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="copy" aria-labelledby="page-title">
+        <p class="eyebrow">Clássico, em três dimensões</p>
+        <h1 id="page-title">Cubo mágico<br />3D</h1>
+        <p class="intro">Gire, misture e encontre o seu próximo movimento.</p>
+        <a class="buy" href="#comprar" aria-label="Comprar o cubo mágico">Comprar o cubo <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="experience" aria-label="Cubo mágico 3D interativo">
+        <div id="cube-stage" role="application" aria-label="Cubo mágico interativo. Arraste uma face para girá-la; arraste o espaço ao redor para visualizar o cubo."></div>
+        <p class="gesture-hint"><span class="dot"></span> Arraste uma peça para girar linhas e colunas. Arraste ao redor para explorar.</p>
+      </section>
+    </main>
+    <footer id="comprar">Um ícone que nunca sai de moda.</footer>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
